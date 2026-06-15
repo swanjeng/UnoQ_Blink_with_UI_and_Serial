@@ -1,0 +1,6 @@
+name: Blink with UI and Serial
+description: Experiment on Serial1 usage
+ports: []
+bricks:
+- arduino:web_ui: {}
+icon: 💡

@@ -25,4 +25,14 @@ Also, the LED (MPU LED1) can be toggled from another Arduino's Serial Monitor th
 - Arduino App Lab
 - Arduino IDE
 
+## How to Run
+
+1. After extracting the .zip file downloaded from this repo, don't delete the .zip file.
+2. Open Arduino IDE and open assets/secondArduino/secondArduino.ino with the IDE.
+3. Configure the sketch to match your setup (Serial1, softwareserial.h, etc).
+4. Upload the sketch to the Arduino other than the Uno Q.
+5. Open Arduino App Lab, connect to your Uno Q, and import the .zip file.
+6. Run the app.
+7. Use the webUI to toggle the LED on the Arduino connected to the Uno Q through UART.
+8. Use the Arduino IDE Serial Monitor to input `0` or `1` to toggle the LED on the Uno Q and observe the output from Uno Q's `Serial1`.
 
